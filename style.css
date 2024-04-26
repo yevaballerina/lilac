@@ -1,0 +1,129 @@
+body {
+    box-sizing: border-box;
+    background-color: rgb(242, 183, 255);
+    margin: 0;
+    font-size: 22px;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+/*Header*/
+.header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(229, 89, 219);
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width: 50px;
+}
+.header-list {
+    display: flex;
+}
+.header-link {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    margin-left: 50px;
+}
+.header-link:hover
+.header-link:focus {
+    color: rgb(232, 128, 255);
+}
+/*Головна сторінка*/
+.hero {
+    min-height: 308px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-img {
+    width: 450px;
+    margin-right: 50px;
+}
+.hero-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: rgb(162, 0, 255);
+}
+/*Тісто*/
+.dough {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(232, 128, 255);
+}
+.dough-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dough-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(162, 0, 255);
+}
+.lilac-img {
+    width: 200px;
+    margin-left: 50px;
+}
+/*Начинка*/
+.filling {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.filling-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.filling-img {
+    width: 200px;
+    margin-left: 50px;
+}
+.filling-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(162, 0, 255);
+}
+.dough-list,
+.filling-list {
+    list-style: disc;
+    margin-left: 50px;
+}
+/*Footer*/
+.footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(229, 89, 219);
+}
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-text {
+    color: white;
+    font-size: 18px;
+}
+.footer-img {
+    width: 30px;
+    margin-left: 20px;
+}
